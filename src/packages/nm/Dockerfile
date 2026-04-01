@@ -16,6 +16,7 @@ RUN meson setup build \
     --localstatedir=/var \
     -Dsystemdsystemunitdir=no \
     -Dsystemd_journal=false \
+    -Dlibaudit=no \
     -Dselinux=false \
     -Dppp=false \
     -Dmodem_manager=false \
